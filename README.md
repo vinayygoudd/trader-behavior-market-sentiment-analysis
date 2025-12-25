@@ -1,6 +1,6 @@
 # Trader Behavior & Risk Analysis by Market Sentiment (Bitcoin)
 
-## 📌 Overview
+##  Overview
 This project analyzes how **Bitcoin market sentiment (Fear vs Greed)** influences **trader behavior, risk-taking, and performance** using historical execution-level trading data combined with the Fear & Greed Index.
 
 The objective is not to predict price direction, but to understand **how sentiment affects trader risk behavior**, position sizing, and downside exposure—insights that are directly applicable to trading risk management and trader evaluation.
