@@ -7,7 +7,7 @@ The objective is not to predict price direction, but to understand **how sentime
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 Does market sentiment change:
 - How often traders win?
 - How much risk they take?
@@ -17,7 +17,7 @@ If win rates remain similar across sentiment regimes, **what actually differenti
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn) – data cleaning & analysis  
 - **Power BI** – KPI creation & interactive dashboard  
 - **Google Colab** – analysis environment  
@@ -44,7 +44,7 @@ Sentiment categories were **simplified into two regimes**:
 
 ---
 
-## 🔍 Methodology
+##  Methodology
 1. **Data Cleaning & Standardization**
    - Standardized column naming
    - Converted timestamps to proper datetime formats
@@ -67,7 +67,7 @@ Sentiment categories were **simplified into two regimes**:
 
 ---
 
-## 📊 Dashboard (Power BI)
+##  Dashboard (Power BI)
 The Power BI dashboard presents:
 - **KPIs**
   - Total Trades Analyzed
@@ -85,7 +85,7 @@ The dashboard is designed as a **one-page executive view**, emphasizing clarity,
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 1. **Win rates are nearly identical across Fear and Greed**
    - Sentiment does not materially change trader accuracy.
 
@@ -102,7 +102,7 @@ The dashboard is designed as a **one-page executive view**, emphasizing clarity,
 
 ---
 
-## 📈 Strategy Implications
+## Strategy Implications
 - Risk limits should be **tightened during Fear regimes**.
 - Position sizing should adapt dynamically to sentiment conditions.
 - **Loss severity and drawdown metrics** are more informative than win rate alone.
@@ -111,7 +111,7 @@ The dashboard is designed as a **one-page executive view**, emphasizing clarity,
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 - Sentiment data is daily; intraday sentiment shifts are not captured.
 - Sentiment categories were simplified into two regimes.
 - Analysis is **correlational**, not causal.
@@ -120,3 +120,23 @@ The dashboard is designed as a **one-page executive view**, emphasizing clarity,
 ---
 
 ## 📁 Repository Structure
+
+├── Trader_Behavior_vs_Market_Sentiment.ipynb # Data analysis (Colab-ready)
+├── Trader_Behavior_Risk_Analysis.pbix # Power BI dashboard
+├── dashboard.png # Dashboard preview
+└── README.md # Project documentation
+
+---
+
+##  Author
+**Vinay**  
+Junior Data Scientist Candidate  
+Focus: Data Analysis, Trading Analytics, Risk Insights
+
+---
+
+##  Conclusion
+This project demonstrates that **market sentiment primarily affects trader risk behavior rather than win probability**.  
+Understanding this distinction is critical for building robust trading systems, evaluating traders, and designing sentiment-aware risk controls.
+
+
